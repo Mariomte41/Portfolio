@@ -23,7 +23,7 @@ I then used a wordcloud to show the most used captions and hashtags in the accou
 
 ![image](https://github.com/Mariomte41/Portfolio/assets/140863879/0740bed7-7379-4678-b10c-1988b6c51040)
 
-I used the data of impressions with its relationship with likes, comments, shares and saves to make two scaatter plots
+I used the data of impressions with its relationship with likes, comments, shares and saves to make two scatter plots
 
 ![image](https://github.com/Mariomte41/Portfolio/assets/140863879/9ca026da-3c40-4dca-af10-8e5c32624737)
 
