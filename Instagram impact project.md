@@ -1,6 +1,3 @@
-# Welcome to my portfolio
-Porfolio containing my personal projects
-
 # 1: Instagram data visualization, correlation and predictions of impressions
 
 * In this project i used a dataframe with analytics from an instagram account, after i read the data and secured that there was no wrong numbers i visualized the density of the From home impressions and the From explore impressions with matplotlib
