@@ -1,6 +1,6 @@
 # Videogame sales analysis and prediction
 
-* In this project we are going to use the videogame sales dataset from 1980 to 2015 from Kaggle, so we can answer these 6 questions and in the end make a prediction model for the sales of specific genres
+* In this project we are going to use the videogame sales dataset from 1980 to 2015 from Kaggle, so we can answer these 6 questions and in the end, make a prediction model for the sales of specific genres
 
 # The continent with the most videogame sales
 
@@ -60,4 +60,23 @@ Now it is time to make the metrics we need like platform, genre, and publisher i
 
 ![image](https://github.com/Mariomte41/Portfolio/assets/140863879/49465ea6-d4aa-4efe-a881-c944a647271d)
 
-We now 
+We now define the variables for the train and test splitting using the global sales column as that is the main variable, then we just use a scaler, optimizer and a custom r2 score function for the metrics of the linear regression model
+
+![image](https://github.com/Mariomte41/Portfolio/assets/140863879/bf397e67-6a5a-452f-b9db-19852ba1b98b)
+
+Now all that is left to do is to make and train the model using Keras
+
+![image](https://github.com/Mariomte41/Portfolio/assets/140863879/13ab7796-42aa-480e-9267-40a6a0f9bfbc)
+
+Now we save the model in a file and use it to get the metrics
+
+![image](https://github.com/Mariomte41/Portfolio/assets/140863879/96e32011-e227-4497-8097-3077fade481b)
+
+As we can see the model is not overfitting and it has a good loss and val_loss ,the graphic shows that the model is not overfitting, also for the R2 score it has 0.43 which is acceptable for this model as this is a really small dataset
+
+At last we make some new singular entries with their respective values to show a prediction, note that this prediction is not as accurate due to the small number of variables we have on the dataset, even though this is a time series model
+
+![image](https://github.com/Mariomte41/Portfolio/assets/140863879/02a59a79-f391-42f1-9c8c-f0721cc98b0a)
+![image](https://github.com/Mariomte41/Portfolio/assets/140863879/82f848d6-0cf3-465c-8c1f-645b6d92f7bc)
+
+As we can see the values are not that different from the expected and for the final entry I created 80 values of the genre action, to show the comparison of the prediction we got to the average we saw before,we can say that the results seem realistic compared to the real data
