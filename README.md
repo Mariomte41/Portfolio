@@ -12,3 +12,4 @@ In this page you can:
 
 # The used templates allow the user to have a dynamic and easy to understand design, using javascript, css and html for the front-end part of the project
 
+# Made a model with the already included database that stores the actual image for any modification and display, based on the user
